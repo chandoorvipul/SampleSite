@@ -6,6 +6,15 @@ var userSchema = mongoose.Schema({
 
     lastName: String,
 
+    from: Date,
+
+    to: Date,
+
+    email: String,
+
+    gender: String,
+
+    age: Number
 
 });
 
